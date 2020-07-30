@@ -1,0 +1,20 @@
+{
+  "name": "cssist_cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "cssist_cli": "app.js"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cssist_cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^16.2.2"
+  }
+}
