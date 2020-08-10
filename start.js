@@ -10,12 +10,10 @@ let startElement = function(element,window){
   
   // Set classes
   var selectors = element.classList;
-
   for(var i=0; i<selectors.length; i++){
     var classes = selectors[i];
     // Check selector
     css_class = createCssFromClass(classes, window)
-    
     if(css_class != null){
       window.css.success.push(css_class)
     } else{

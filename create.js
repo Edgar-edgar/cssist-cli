@@ -16,7 +16,7 @@ var createCss = function(css){
   css.value = result.value;
 
   // Set event
-  css.event = getEvent(css.event);
+  // css.event = getEvent(css.event);
 
   // Set valid
   css.valid = true;
