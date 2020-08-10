@@ -1,5 +1,5 @@
 const {getCssOfClass, getPropertyValue, 
-  getCodesCors, getEvent, getMediaQueries} = require('./get')
+  getCodesCors, getMediaQueries} = require('./get')
 const {checkClassSet} = require('./check')
 
 debug = true
@@ -26,7 +26,6 @@ var createCss = function(css){
 var createCssFromClass = function(css_class){
   // Set css
   var css = getCssOfClass(css_class);
-  
   if(!css){ return null; }
   // Check class_set
   if( checkClassSet(css) ){
