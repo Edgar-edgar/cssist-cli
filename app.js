@@ -119,12 +119,13 @@ function getStartSelector(rawcode){
 
     let cls = identifiers.map((_identifier) =>{
 
-      _identifier = _identifier.trim()
-      let begin_trim = _identifier.indexOf('"')+1
-      let end_trim = _identifier.substring(begin_trim).indexOf('"')
-      return _identifier.substr(begin_trim, end_trim).split(' ') 
+    _identifier = _identifier.trim()
+    let begin_trim = _identifier.indexOf('"')+1
+    let end_trim = _identifier.substring(begin_trim).indexOf('"')
+    return _identifier.substr(begin_trim, end_trim).split(' ') 
       
     })
+    
     classes.push(...[].concat.apply([], ...cls))
   }
 }
@@ -134,7 +135,9 @@ function getAllClassesOfVanilla(doc){
   AllEl.forEach(element => {
     let _classes = element.className.toString().split(/\s+/)
     _classes.forEach(cls =>{
-      if(cls && _classes.indexOf(cls) === -1) classes.push(cls)
+      if(cls && classes.indexOf(cls) === -1){
+        classes.push(cls)
+      }
     })
   })
 }

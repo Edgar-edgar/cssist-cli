@@ -1,0 +1,13 @@
+{
+  "name": "cssist-cli",
+  "description": "cli build for cssist",
+  "main": "app.js",
+  "authors": [
+    "edpaks <edgardelatorre99@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "cssist_cli"
+  ],
+  "homepage": "https://github.com/Edgar-edgar/cssist-cli"
+}

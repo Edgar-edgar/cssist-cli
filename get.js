@@ -118,7 +118,7 @@ var getCodesCors = function(css){
     broswers.forEach(browser => {
       codes +="  " + browser + code + ";\n" 
     });
-    styles += "." + css_i.res_class + " {\n" + codes + "}\n"
+    styles += "[cssist]" + "." + css_i.res_class + " {\n" + codes + "}\n"
   });
   return styles
 };
