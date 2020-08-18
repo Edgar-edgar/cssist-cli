@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+u#!/usr/bin/env node
 const fs = require('fs')
 const path = require('path')
 const jsdom = require("jsdom");

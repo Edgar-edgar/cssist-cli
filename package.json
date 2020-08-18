@@ -1,6 +1,6 @@
 {
   "name": "cssist-cli",
-  "version": "1.0.0",
+  "version": "2.1.4",
   "description": "",
   "bin": {
     "cssist": "app.js"
@@ -15,6 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^16.2.2"
+    "chalk": "^4.1.0",
+    "jsdom": "^16.4.0",
+    "yargs": "^15.4.1"
   }
 }
